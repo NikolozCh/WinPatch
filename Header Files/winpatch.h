@@ -13,4 +13,10 @@ std::string get_program_name(std::string path); // Removes the path and leaves j
 
 // ---------------------------------------
 
+// Pattern related -----------------------
+
+bool validatePatternLine(std::string line);
+
+// ---------------------------------------
+
 #endif //WINPATCH_WINPATCH_H

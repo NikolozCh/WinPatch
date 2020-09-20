@@ -2,5 +2,6 @@
   "0": "Program executed successfully",
   "100": "Arguments are not provided properly",
   "201": "Pattern's file failed to open, please check permissions, path, etc.",
-  "202": "Target Program's file failed to open, please check permissions, path, etc."
+  "202": "Target Program's file failed to open, please check permissions, path, etc.",
+  "301": "Patterns are not in right format."
 }
