@@ -1,3 +1,0 @@
-"N:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\WinPatch.dir/objects.a
-"N:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" cr CMakeFiles\WinPatch.dir/objects.a @CMakeFiles\WinPatch.dir\objects1.rsp
-"N:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" -g  -static -Wl,--whole-archive CMakeFiles\WinPatch.dir/objects.a -Wl,--no-whole-archive  -o WinPatch.exe -Wl,--out-implib,libWinPatch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WinPatch.dir\linklibs.rsp

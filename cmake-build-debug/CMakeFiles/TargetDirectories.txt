@@ -1,3 +1,0 @@
-N:/Users/Nikoloz/CLionProjects/C++/WinPatch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-N:/Users/Nikoloz/CLionProjects/C++/WinPatch/cmake-build-debug/CMakeFiles/WinPatch.dir
-N:/Users/Nikoloz/CLionProjects/C++/WinPatch/cmake-build-debug/CMakeFiles/edit_cache.dir
