@@ -1,10 +1,4 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Datasource local storage ignored files
-/../../../../../../../:\Users\Nikoloz\CLionProjects\C++\WinPatch\.idea/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-/../../../../../../../:\Users\Nikoloz\CLionProjects\C++\WinPatch\.idea
-/../../../../../../../:\Users\Nikoloz\CLionProjects\C++\WinPatch\.cmake-build-debug
+# folders
+.idea/
+cmake-build-debug/
+# ----------------
