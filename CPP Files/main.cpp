@@ -10,6 +10,28 @@
 // getByte function returns that
 
 
+/*
+ * STATEMENT: to get familiar with patterns, please check the example of pattern stated down below
+ * when you study the code, you will understand more clearly.
+ * READ THIS: always use this format
+ *
+ * {"<pattern_type>":"<bytes of pattern""}
+ * pattern_type can be only 2: original and replaced
+ *
+ * original type is the thing that program will look for in file
+ * replaced is type that will be inserted in file instead of original pattern
+ *
+ * EXAMPLES:
+ * {"original":"F6 C7 00 B4 67 75 70"}
+ * {"replaced":"F6 C7 00 80 80 30 40"}
+ *
+ * It is recommended to use same size pattern in replaced as it is used in original
+ *
+ * Good luck using it.
+ * Hope this program will make you life easier
+ *
+ * */
+
 int main(int argc, char* argv[])
 {
 
