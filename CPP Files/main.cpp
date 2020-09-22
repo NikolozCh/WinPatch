@@ -28,7 +28,7 @@
  * It is recommended to use same size pattern in replaced as it is used in original
  *
  * Good luck using it.
- * Hope this program will make you life easier
+ * Hope this program will make your life easier
  *
  * */
 
