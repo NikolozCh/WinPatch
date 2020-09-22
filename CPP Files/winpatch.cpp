@@ -18,6 +18,33 @@ std::string get_program_name(std::string path)
     return path; // if path doesn't contain '\' symbol in it
                  // we just return the name, it means only the .exe path is provided
 }
+
+// adds _patched to original file path
+std::string getPatchedFileNameFromOriginal(std::string fileName)
+{
+    std::string extension, newName; // we store file extension into extension var
+                                    // we store whole new path in newName
+
+    for(int i = fileName.size() - 1; i >= 0; i--)
+    {
+        if(fileName[i] != '.')
+        {
+            extension.push_back(fileName[i]);
+        }
+        else
+        {
+            newName = fileName.substr(0, i);
+            break;
+        }
+    }
+    extension = std::string(extension.rbegin(), extension.rend()); // we reverse extension here
+
+    newName.append("_patched.");
+    newName.append(extension);
+
+    return newName;
+}
+
 // ---------------------------------------
 
 // Pattern related -----------------------

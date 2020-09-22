@@ -11,6 +11,8 @@
 
 std::string get_program_name(std::string path); // Removes the path and leaves just the program name (exe name)
 
+std::string getPatchedFileNameFromOriginal(std::string fileName); // returns the full path of file with _patched appended
+
 // ---------------------------------------
 
 // Pattern related -----------------------
@@ -18,5 +20,6 @@ std::string get_program_name(std::string path); // Removes the path and leaves j
 bool validatePatternLine(std::string line);
 
 // ---------------------------------------
+
 
 #endif //WINPATCH_WINPATCH_H
